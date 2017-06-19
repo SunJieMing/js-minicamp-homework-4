@@ -1,19 +1,25 @@
 # Homework #4
 
-## Instructions
+### Instructions
 ---
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
-		
+
 	* Callback Functions
+	Functions that can pass in functions as arguments to other functions
 	* Closure
+	Functions that can return other functions
 	* arguments array
+	An array that corresponds to the arguments passed to a function
 	* recursion
+	A function calls itself
 	* prototype
+	A function that is inherited, so each individual object doesn't have to define that function
 	* constructors
+	A function that is called to setup a new object
 
 
 2. Fork and clone this repo.  When you need to commit use the following commands.
-		
+
 	* git status
 	* git add --all
 	* git status
