@@ -105,6 +105,10 @@ function addReverseString() {
 	//name this method reverse
 	//hint:
 	//you will need to use 'this' inside of reverse
+
+	String.prototype.reverse = function() {
+		return this.split('').reverse().join('');
+	};
 }
 
 function nFactorial(n) {
@@ -112,6 +116,12 @@ function nFactorial(n) {
 	//solve this recursively
 	//example:
 	//the factorial of 3 is 6 (3 * 2 * 1)
+
+	if (n == 0) {
+		return 1;
+	}
+
+	return n * nFactorial(n-1);
 }
 
 function cacheFunction(cb) {
