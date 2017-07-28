@@ -1,0 +1,40 @@
+Callback Functions: A callback function is, in essence, a function that is
+called inside of another function. For example, if you have function a() {}
+and function b() { a() } (assuming that both are in a scope that allows b() {}
+to see a() {}), if I wrote called b(), it would call a() as its behavior. This
+is a callback function.
+
+----------------------------------
+
+Closure: A closure in JavaScript is an inner function that has access to outer
+functions. For example, a variable declared globally that is referenced inside of a
+function is fine. A variable declared inside of a function, however, cannot be
+referenced outside of that fucntion.
+
+----------------------------------
+
+arguments array: This is an array that is related to arguments
+that are passed into a function.
+
+----------------------------------
+
+recursion: Recursion is a function called inside itself. This has many useful
+functions, such as a Fibonacci sequence or a factorial. It is neither a variable
+nor a function, but rather, concept in JavaScript. It is also used when one needs
+to preserve memory on a server.
+
+----------------------------------
+
+prototype: A prototype is a function that is inherited by the objects that
+are called to it, so that a single function can be made to be called by many
+objects. This uses less memory and keeps things simple.
+
+----------------------------------
+
+constructors: Constructors are like a blueprint to create new objects. For example,
+you may want to create a bunch of cars with all different makes and models. What can
+save you a significant amount of time is a constructor. For example, all cars (normal cars, that is)
+have several things in common. They all have 4 wheels, a engine, windows, a steering wheel, etc. You
+can create a Car constructor that sets the number of wheels in all new cars to 4, the number of windows
+to this.numWindows, the boolean hasSteeringWheel to true automatically. It is a time saver and a way to
+lower the potential human errors when making new Car objects.
