@@ -6,19 +6,19 @@
 		
 	* Callback Functions
 	* Closure
-	* arguments array
-	* recursion
-	* prototype
-	* constructors
+	* `arguments`
+	* Recursion
+	* `prototype`
+	* Constructors
 
 
 2. Fork and clone this repo.  When you need to commit use the following commands.
 		
-	* git status
-	* git add --all
-	* git status
-	* git commit -m "your commit message"
-	* git push origin master
+	* `git status`
+	* `git add --all`
+	* `git status`
+	* `git commit -m "your commit message"`
+	* `git push origin master`
 
 3. Install dependencies using `npm install`.  Run tests using `npm test`.
 
