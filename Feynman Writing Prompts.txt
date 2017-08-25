@@ -1,0 +1,34 @@
+
+    Callback Functions
+
+	Callback functions are functions that you pass as arguments to other functions. You can have a function
+	call a variety of different functions inside of itself.
+
+    Closure
+
+	A closure allows functions inside of other functions to use the local variables that are enclosed in the
+	outer functions scope across calls. You must return the enclosed function from the outer function to achieve
+	the behavior of a closure.
+
+    arguments
+
+	The arguments keyword allows you to access the arguments passed into a function array style. It is essentially
+	an array full of the arguments passed to the function.
+
+    Recursion
+	
+	Recursion is when a function calls itself. All problems solved recursively require identifying the base case.
+	The base case is the case that the function quits calling itself. A lot of times you use the
+	return results of previous recursive calls when calculating the return value of a recursive function.
+
+    prototype
+
+	An objects prototype contains all of its methods. When you instantiate a certain object type the instance
+	gains all of the methods of that object type's prototype. You can modify prototypes at runtime to change
+	what methods an instance of an object is created with.
+
+    Constructors
+	
+	Constructors are special types of functions. If we had a constructor called Person, you would use
+	var person = new Person(); to create an instance of a person. The constructor returns an object with a certain
+	set of methods and properties that it fills out the same way every time.
