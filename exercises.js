@@ -1,5 +1,29 @@
 // Do not change any of the function names
 
+/*
+Vocabulary Terms:
+
+Callback Functions - Callback functions allow one to define a function and use it later. So, 
+you can declare a function, start another one, and run the origin function inside of the other one. 
+
+Closure - A closure is when a function can see outside of the function it is currently sitting in
+and reference something outside of that function. It's like being able to see out your window
+from inside your home and say hi to someone outside. 
+
+arguments - Arguments are pieces of information that you pass through a function. Parameters 
+are the tools used to refer to the arguments. 
+
+Recursion - Recursion is a concept, not a literal thing. It means to call a function on itself. 
+Recursion occurs in most loops, because they iterate through characters in a string, elements in 
+an array, or properties in an object. 
+
+prototype - Prototypes refer to categories of objects. When you make an object, it gets 
+traits from its category, which is the prototype. Which prototype and qualities the object 
+gets depends on how the object is made.
+
+Constructors - Constructors are functions that make objects.
+*/
+
 function multiplyArguments() {
   var product = 1;
   
