@@ -1,0 +1,11 @@
+1. A callback function is passed into another function as an argument, and is run from within that receiving function.
+
+2. A closure is a function and its lexical environment. In other words, it is the function and the objects that it references within its scope. A nested function, when instantiated outside its outer function, will create a closure of that function and the objects in its original scope it requires to function.
+
+3. Arguments are the values that are passed into a function's as input. JS allows a function to take more or less arguments than there are parameters, unlike Python, for instance.
+
+4. Recursion is the process in which a function calls itself directly or indirectly.
+
+5. A prototype is the fundamental building block of prototype inheritance. The prototype is the object that the inheriting object's __proto__ property refers to. The inheriting object doesn't actually own any of the properties in the prototype. Instead, the prototype's properties can be referenced on the object as it they were its own. It is the building block of the prototype chain.
+
+6. A constructor function is used with the `new` keyword to produce a specialized (cookie-cutter) object. It can be thought of as a class, even though the details of class functionality in other languages are going to be different.
