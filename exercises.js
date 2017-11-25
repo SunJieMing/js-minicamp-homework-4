@@ -111,13 +111,13 @@ function cacheFunction(cb) {
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
   var closureFunction = function (argu) {
-    var argsArray = [];
-    if (argu in argsArray) {
-        return argsArray[argu];
+    var argsObj = {};
+    if (argu in argsObj) {
+        return argsObj[argu];
     }
     else {
-        argsArray[argu] = cb(argu);
-        return argsArray[argu];
+        argsObj[argu] = cb(argu);
+        return argsObj[argu];
     }
     };
   return closureFunction;
