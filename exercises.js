@@ -57,7 +57,6 @@ function getUserConstructor() {
     this.password = options.password;
     this.sayHi = function(){return 'Hello my name is ' + this.name;};
   }
-
   return User;
 }
 
